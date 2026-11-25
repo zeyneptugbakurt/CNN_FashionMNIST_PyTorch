@@ -1,0 +1,260 @@
+{
+  "test_accuracy": 0.9183,
+  "test_precision_macro": 0.9193984631656203,
+  "test_recall_macro": 0.9183,
+  "test_f1_macro": 0.9185948597523993,
+  "best_val_acc": 0.9236666666666666,
+  "best_epoch": 15,
+  "epochs": 15,
+  "training_time_sec": 230.3292441368103,
+  "inference_ms_single": 0.9215693999931318,
+  "n_params": 421834,
+  "device": "mps",
+  "torch": "2.15.0",
+  "python": "3.13.7",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "per_class_report": {
+    "Tişört/Üst": {
+      "precision": 0.8792756539235412,
+      "recall": 0.874,
+      "f1-score": 0.876629889669007,
+      "support": 1000.0
+    },
+    "Pantolon": {
+      "precision": 0.9939455095862765,
+      "recall": 0.985,
+      "f1-score": 0.9894525364138623,
+      "support": 1000.0
+    },
+    "Kazak": {
+      "precision": 0.89937106918239,
+      "recall": 0.858,
+      "f1-score": 0.8781985670419652,
+      "support": 1000.0
+    },
+    "Elbise": {
+      "precision": 0.9000960614793467,
+      "recall": 0.937,
+      "f1-score": 0.9181773640372366,
+      "support": 1000.0
+    },
+    "Mont/Ceket": {
+      "precision": 0.8852971845672576,
+      "recall": 0.849,
+      "f1-score": 0.8667687595712098,
+      "support": 1000.0
+    },
+    "Sandalet": {
+      "precision": 0.983983983983984,
+      "recall": 0.983,
+      "f1-score": 0.9834917458729364,
+      "support": 1000.0
+    },
+    "Gömlek": {
+      "precision": 0.7353497164461248,
+      "recall": 0.778,
+      "f1-score": 0.7560738581146744,
+      "support": 1000.0
+    },
+    "Spor ayakkabı": {
+      "precision": 0.9432146294513956,
+      "recall": 0.98,
+      "f1-score": 0.9612555174104953,
+      "support": 1000.0
+    },
+    "Çanta": {
+      "precision": 0.989010989010989,
+      "recall": 0.99,
+      "f1-score": 0.9895052473763118,
+      "support": 1000.0
+    },
+    "Bot": {
+      "precision": 0.9844398340248963,
+      "recall": 0.949,
+      "f1-score": 0.9663951120162932,
+      "support": 1000.0
+    },
+    "accuracy": 0.9183,
+    "macro avg": {
+      "precision": 0.9193984631656203,
+      "recall": 0.9183,
+      "f1-score": 0.9185948597523993,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.9193984631656203,
+      "recall": 0.9183,
+      "f1-score": 0.9185948597523992,
+      "support": 10000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      874,
+      0,
+      6,
+      19,
+      2,
+      1,
+      95,
+      0,
+      3,
+      0
+    ],
+    [
+      1,
+      985,
+      0,
+      12,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      11,
+      0,
+      858,
+      11,
+      45,
+      0,
+      74,
+      0,
+      1,
+      0
+    ],
+    [
+      8,
+      3,
+      8,
+      937,
+      12,
+      0,
+      31,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      42,
+      32,
+      849,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      983,
+      0,
+      14,
+      0,
+      3
+    ],
+    [
+      97,
+      2,
+      40,
+      27,
+      51,
+      0,
+      778,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      980,
+      0,
+      12
+    ],
+    [
+      2,
+      1,
+      0,
+      3,
+      0,
+      0,
+      3,
+      1,
+      990,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      44,
+      0,
+      949
+    ]
+  ],
+  "real_photos": [
+    {
+      "dosya": "0_tisort.jpg",
+      "gercek": "Tişört/Üst",
+      "tahmin": "Tişört/Üst",
+      "guven": 0.8942,
+      "gercek_sinif_olasiligi": 0.8942,
+      "dogru_mu": true,
+      "on_isleme_sn": 0.34
+    },
+    {
+      "dosya": "1_kot_pantolon.jpg",
+      "gercek": "Pantolon",
+      "tahmin": "Pantolon",
+      "guven": 0.9962,
+      "gercek_sinif_olasiligi": 0.9962,
+      "dogru_mu": true,
+      "on_isleme_sn": 0.32
+    },
+    {
+      "dosya": "2_kazak.jpg",
+      "gercek": "Kazak",
+      "tahmin": "Gömlek",
+      "guven": 0.38,
+      "gercek_sinif_olasiligi": 0.0444,
+      "dogru_mu": false,
+      "on_isleme_sn": 0.37
+    },
+    {
+      "dosya": "7_ayakkabi.jpg",
+      "gercek": "Spor ayakkabı",
+      "tahmin": "Çanta",
+      "guven": 0.5308,
+      "gercek_sinif_olasiligi": 0.0027,
+      "dogru_mu": false,
+      "on_isleme_sn": 0.32
+    },
+    {
+      "dosya": "8_canta.jpg",
+      "gercek": "Çanta",
+      "tahmin": "Çanta",
+      "guven": 0.9947,
+      "gercek_sinif_olasiligi": 0.9947,
+      "dogru_mu": true,
+      "on_isleme_sn": 0.28
+    }
+  ]
+}
